@@ -8,5 +8,10 @@
     "id": 2,
     "artistName": "Regular Expressionists",
     "albumName": "Top, Right, Bottom, Left"
+  },
+  {
+    "id": 3,
+    "artistName": "<script>alert(1)</script>",
+    "albumName": "<img src=x onload=alert('xss'); />"
   }
 ]
