@@ -19,7 +19,7 @@ export class BypassSecurityComponent implements OnInit {
 
     this.dangerousVideoUrl = 'https://www.youtube.com/embed/';
     this.videoUrl =
-        this.sanitizer.bypassSecurityTrustResourceUrl(this.dangerousVideoUrl);
+      this.sanitizer.bypassSecurityTrustResourceUrl(this.dangerousVideoUrl);
   }
   ngOnInit() {
   }
