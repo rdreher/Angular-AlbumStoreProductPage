@@ -16,7 +16,7 @@ import { BypassSecurityComponent } from './bypass-security/bypass-security.compo
 const appRoutes: Routes = [
   { path: 'products', component: ProductListComponent },
   { path: 'product/:id', component: ProductPageComponent },
-  { path: 'bypasssecurity', component: BypassSecurityComponent},
+  { path: 'bypasssecurity', component: BypassSecurityComponent },
   { path: '', redirectTo: 'products', pathMatch: 'full' }
 ];
 
